@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.1 - 2026-11-08
+
+### Fixed
+
+- Allow Guzzle 8 (`guzzlehttp/guzzle: ^7.8|^8.0`).
+
 ## 1.0.0 - 2026-11-08
 
 First release.
