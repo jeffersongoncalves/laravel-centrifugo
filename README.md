@@ -22,7 +22,7 @@ Using Filament? See [`jeffersongoncalves/filament-centrifugo`](https://github.co
 
 ## Requirements
 
-- PHP 8.2+, Laravel 11, 12 or 13
+- PHP 8.2+, Laravel 12 or 13
 - A Centrifugo v5/v6 server
 
 ## Installation
@@ -68,7 +68,7 @@ CENTRIFUGO_TOKEN_TTL=3600                      # token lifetime (seconds), refre
 
 The `centrifugo` broadcasting connection is registered for you — no edit to `config/broadcasting.php` is needed.
 
-Enable Laravel's broadcasting auth route, which signs the subscription tokens (Laravel 11+):
+Enable Laravel's broadcasting auth route, which signs the subscription tokens:
 
 ```php
 // bootstrap/app.php
