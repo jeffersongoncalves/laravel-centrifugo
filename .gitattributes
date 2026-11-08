@@ -9,3 +9,8 @@
 /CHANGELOG.md export-ignore
 /phpstan.neon.dist export-ignore
 /phpunit.xml.dist export-ignore
+
+# JS build tooling (resources/dist is the shipped artifact)
+/package.json       export-ignore
+/pnpm-lock.yaml     export-ignore
+/pnpm-workspace.yaml export-ignore

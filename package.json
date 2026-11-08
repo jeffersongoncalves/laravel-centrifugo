@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild resources/js/echo.js --bundle --minify --format=iife --target=es2020 --outfile=resources/dist/centrifugo-echo.js"
+  },
+  "devDependencies": {
+    "centrifuge": "^5.8.0",
+    "esbuild": "^0.25.0"
+  }
+}

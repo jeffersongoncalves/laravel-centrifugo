@@ -1,0 +1,4 @@
+allowBuilds:
+  esbuild: true
+  # centrifuge's protobuf transport is unused (JSON protocol).
+  protobufjs: false
