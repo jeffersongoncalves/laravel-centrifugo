@@ -6,6 +6,6 @@
   },
   "devDependencies": {
     "centrifuge": "^5.8.0",
-    "esbuild": "^0.25.0"
+    "esbuild": "^0.28.2"
   }
 }
