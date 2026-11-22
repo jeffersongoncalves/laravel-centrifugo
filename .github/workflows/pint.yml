@@ -15,7 +15,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Setup PHP
-        uses: shivammathur/setup-php@9a96576163ad88ed6f6f2cbf381c5229baf95677 # v2
+        uses: shivammathur/setup-php@e8d43d139fbfbe401c32ef3a3a32e14075f20122 # v2
         with:
           php-version: 8.4
           coverage: none
